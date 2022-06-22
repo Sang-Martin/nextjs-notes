@@ -6,7 +6,7 @@ const NoteList = ({ notes, handleAddNote, handleDelete }) => {
   return (
     <div className="flex flex-wrap gap-2 container">
       {notes.map((note) => {
-        return <Note id={note.id} text={note.text} date={note.date} handleDelete={handleDelete}/>;
+        return <Note id={note.id} text={note.text} date={note.date} handleDelete={handleDelete} key={note.id}/>;
       })}
 
       <AddNote handleAddNote={handleAddNote} />
