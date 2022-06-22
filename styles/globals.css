@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  @apply max-w-7xl p-2 mx-auto  md:px-8;
+}
+
+.note{
+  @apply flex flex-col justify-between  gap-2 bg-blue-300 p-2 rounded-md min-h-[10rem]   flex-1 min-w-[15rem] whitespace-pre-line ;
+}
+.note-single {
+  @apply bg-yellow-200 max-w-sm;
+}
+.note-new {
+  @apply bg-blue-300 max-w-sm;
+}
+textarea:focus{
+  outline: none;
+}
