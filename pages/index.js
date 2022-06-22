@@ -74,7 +74,7 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main
+      {/* <main
         className={`flex w-full flex-1 flex-col ${darkMode && "dark-mode"}`}
       >
         <Header handleToggleDarkMode={setDarkMode} />
@@ -86,7 +86,7 @@ export default function Home() {
           handleAddNote={addNote}
           handleDelete={deleteNote}
         />
-      </main>
+      </main> */}
 
       
     </div>
